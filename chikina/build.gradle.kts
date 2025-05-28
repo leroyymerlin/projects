@@ -2,7 +2,8 @@ plugins {
     id("java")
     id ("org.openapi.generator") version "7.7.0"
     id("org.springframework.boot") version "3.4.3"
-    id("io.spring.dependency-management") version "1.1.6"
+    id("io.spring.dependency-management") version "1.1.6" +
+            ""
 }
 
 group = "org.example"
